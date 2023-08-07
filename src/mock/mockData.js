@@ -35,24 +35,24 @@ export const features = [
     title: "Budget Control",
     text: "Take full control of your budget with Vvaly's intuitive budgeting tools. Set spending limits for different categories, monitor your progress, and receive timely alerts ...",
   },
-  {
-    id: 4,
-    icon: mark,
-    title: "Saving Goals",
-    text: "Ucon allows you to create multiple savings goals tailored to your aspirations. Whether it's a down payment for a house, paying off debt, or starting an investment portfolio, Ucon's smart algorithms provide you with personalized savings strategies to reach your goals faster than you ever thought possible.",
-  },
-  {
-    id: 5,
-    icon: puzzle,
-    title: "Smart Recommendations",
-    text: "Discover actionable insights and recommendations from Ucon's intelligent algorithms. Identify areas where you can cut costs, optimize your spending habits, and make smarter financial choices. Let Ucon be your financial advisor and maximize your savings potential.",
-  },
-  {
-    id: 6,
-    icon: smiley,
-    title: "User-Friendly Interface",
-    text: "Ucon offers a sleek and user-friendly interface that makes managing your finances a delightful experience. With its intuitive design and engaging visualizations, Ucon transforms your financial journey into an enjoyable and interactive adventure.",
-  },
+  // {
+  //   id: 4,
+  //   icon: mark,
+  //   title: "Saving Goals",
+  //   text: "Ucon allows you to create multiple savings goals tailored to your aspirations. Whether it's a down payment for a house, paying off debt, or starting an investment portfolio, Ucon's smart algorithms provide you with personalized savings strategies to reach your goals faster than you ever thought possible.",
+  // },
+  // {
+  //   id: 5,
+  //   icon: puzzle,
+  //   title: "Smart Recommendations",
+  //   text: "Discover actionable insights and recommendations from Ucon's intelligent algorithms. Identify areas where you can cut costs, optimize your spending habits, and make smarter financial choices. Let Ucon be your financial advisor and maximize your savings potential.",
+  // },
+  // {
+  //   id: 6,
+  //   icon: smiley,
+  //   title: "User-Friendly Interface",
+  //   text: "Ucon offers a sleek and user-friendly interface that makes managing your finances a delightful experience. With its intuitive design and engaging visualizations, Ucon transforms your financial journey into an enjoyable and interactive adventure.",
+  // },
 ];
 
 export const whatDoing = [
