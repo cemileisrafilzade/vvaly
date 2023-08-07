@@ -9,19 +9,19 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logoWrapper}>
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="vvaly" />
         <ul className={styles.socials}>
           <li>
-            <img src={facebook} alt="" />
+            <img src={facebook} alt="facebook" />
           </li>
           <li>
-            <img src={insta} alt="" />
+            <img src={insta} alt="instagram" />
           </li>
           <li>
-            <img src={linkedIn} alt="" />
+            <img src={linkedIn} alt="lonkedin" />
           </li>
           <li>
-            <img src={twitter} alt="" />
+            <img src={twitter} alt="twitter" />
           </li>
         </ul>
       </div>

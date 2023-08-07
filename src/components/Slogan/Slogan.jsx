@@ -9,7 +9,7 @@ const Slogan = () => {
         VVALY is a revolutionary budget management app that empowers you to take
         control of your finances and make informed financial decisions.
       </p>
-      <img src={phone} alt="" />
+      <img src={phone} alt="app photo" />
     </div>
   );
 };

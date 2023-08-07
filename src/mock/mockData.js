@@ -6,7 +6,6 @@ import puzzle from "../assets/PuzzlePiece.png";
 import smiley from "../assets/Smiley.png";
 import ulviya from "../assets/team/ulviya.png";
 import aqil from "../assets/team/aqil.png";
-import ali from "../assets/team/ali.png";
 import aydin from "../assets/team/aydin.png";
 import azer from "../assets/team/azer.png";
 import huseyn from "../assets/team/huseyn.png";
@@ -14,7 +13,6 @@ import jamila from "../assets/team/jamila.png";
 import jeyhun from "../assets/team/jeyhun.png";
 import kenan from "../assets/team/kenan.png";
 import nicat from "../assets/team/nicat.png";
-import nurlan from "../assets/team/nurlan.png";
 import sovket from "../assets/team/sovket.png";
 
 export const features = [

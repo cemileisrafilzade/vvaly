@@ -14,8 +14,8 @@ const Team = () => {
             <p style={{ color: item.color }}>{item.major}</p>
             <h4>{item.name}</h4>
             <div className={styles.imgWrapper}>
-              <img className={styles.linkedin} src={linkedin} alt="" />
-              <img className={styles.memberImg} src={item.img} alt="" />
+              <img className={styles.linkedin} src={linkedin} alt="linkedin" />
+              <img className={styles.memberImg} src={item.img} alt="out team" />
             </div>
           </div>
         ))}

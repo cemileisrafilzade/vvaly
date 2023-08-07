@@ -20,7 +20,7 @@ const WhoWeAre = () => {
       </div>
       <ul>
         <li>
-          <img src={first} alt="" />
+          <img src={first} alt="our mission" />
           <h3>Our mission</h3>
           <p>
             Our mission is to create a stress-free platform for managing budgets
@@ -28,14 +28,14 @@ const WhoWeAre = () => {
           </p>
         </li>
         <li>
-          <img src={five} alt="" />
+          <img src={five} alt="commitment" />
           <h3>Commitment to Customers</h3>
           <p>
             We foster a customer-centric culture through smart recommendations.
           </p>
         </li>
         <li>
-          <img src={hexa} alt="" />
+          <img src={hexa} alt="vision" />
           <h3>OUR VISION</h3>
           <p>
             We are reliable and the first choice is to be a financial AI buddy
