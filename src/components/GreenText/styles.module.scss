@@ -1,0 +1,23 @@
+.container {
+  background-color: #11c751;
+  padding: 40px 0;
+  overflow-x: hidden;
+  width: 100%;
+  h1 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 72px;
+    width: 100%;
+    white-space: nowrap;
+    animation: scrollText 13s infinite linear;
+  }
+  @keyframes scrollText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
