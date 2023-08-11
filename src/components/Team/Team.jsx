@@ -10,14 +10,28 @@ const Team = () => {
 
       <div className={styles.wrapper}>
         {team.map((item) => (
-          <div className={styles.member}>
-            <p style={{ color: item.color }}>{item.major}</p>
-            <h4>{item.name}</h4>
-            <div className={styles.imgWrapper}>
-              <img className={styles.linkedin} src={linkedin} alt="linkedin" />
-              <img className={styles.memberImg} src={item.img} alt="out team" />
+          <a target="_blank" href={item?.link}>
+            <div className={styles.member}>
+              <div
+                style={{ backgroundColor: item.color }}
+                className={styles.cover}
+              ></div>
+              <p style={{ color: item.color }}>{item?.major}</p>
+              <h4>{item?.name}</h4>
+              <div className={styles.imgWrapper}>
+                <img
+                  className={styles.linkedin}
+                  src={linkedin}
+                  alt="linkedin"
+                />
+                <img
+                  className={styles.memberImg}
+                  src={item.img}
+                  alt="out team"
+                />
+              </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>

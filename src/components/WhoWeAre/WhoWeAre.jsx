@@ -12,7 +12,7 @@ const WhoWeAre = () => {
           <h1>WHO WE ARE?</h1>
         </div>
         <p>
-          Vvlay is a revolutionary budget management app that empowers you to
+          VValy is a revolutionary budget management app that empowers you to
           take control of your finances and make informed financial decisions.
           Say goodbye to the stress of money management and hello to a new, fun
           and rewarding financial journey!

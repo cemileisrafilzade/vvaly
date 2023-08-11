@@ -22,10 +22,15 @@
       align-items: center;
       justify-content: center;
       color: #fff;
+      font-size: 18px;
+      font-weight: 400;
+      transition: all 0.4s ease-in-out;
       &:hover {
         background-color: #fff;
         color: #141414;
         cursor: pointer;
+        font-weight: 600;
+        font-size: 18px;
       }
     }
 

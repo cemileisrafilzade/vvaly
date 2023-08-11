@@ -16,6 +16,16 @@
     color: #ffffff;
   }
 }
+.cover {
+  height: 100%;
+
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0.011;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
 
 .wrapper {
   // width: 100%;
@@ -26,12 +36,18 @@
   .member {
     display: flex;
     flex-direction: column;
+    position: relative;
     // align-items: center;
     width: 347px;
     height: 387px;
     background-color: #1d1d1d;
     border-radius: 6px;
     padding: 24px 0 0 14px;
+    transition: all 2s ease-in-out;
+
+    :hover {
+      opacity: 0.05;
+    }
     h4 {
       font-size: 24px;
       line-height: 24px;
@@ -55,6 +71,8 @@
   .linkedin {
     width: 32px;
     height: 32px;
+
+    cursor: pointer;
   }
   .memberImg {
     // position: absolute;

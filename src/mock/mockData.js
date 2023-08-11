@@ -1,8 +1,8 @@
 import target from "../assets/Target.png";
 import financial from "../assets/financial.png";
 import budget from "../assets/budget.png";
-import mark from "../assets/BookmarksSimple.png";
-import puzzle from "../assets/PuzzlePiece.png";
+import mark from "../assets/mark.png";
+import puzzle from "../assets/puzzle.png";
 import smiley from "../assets/Smiley.png";
 import ulviya from "../assets/team/ulviya.png";
 import aqil from "../assets/team/aqil.png";
@@ -35,24 +35,24 @@ export const features = [
     title: "Budget Control",
     text: "Take full control of your budget with Vvaly's intuitive budgeting tools. Set spending limits for different categories, monitor your progress, and receive timely alerts ...",
   },
-  // {
-  //   id: 4,
-  //   icon: mark,
-  //   title: "Saving Goals",
-  //   text: "Ucon allows you to create multiple savings goals tailored to your aspirations. Whether it's a down payment for a house, paying off debt, or starting an investment portfolio, Ucon's smart algorithms provide you with personalized savings strategies to reach your goals faster than you ever thought possible.",
-  // },
-  // {
-  //   id: 5,
-  //   icon: puzzle,
-  //   title: "Smart Recommendations",
-  //   text: "Discover actionable insights and recommendations from Ucon's intelligent algorithms. Identify areas where you can cut costs, optimize your spending habits, and make smarter financial choices. Let Ucon be your financial advisor and maximize your savings potential.",
-  // },
-  // {
-  //   id: 6,
-  //   icon: smiley,
-  //   title: "User-Friendly Interface",
-  //   text: "Ucon offers a sleek and user-friendly interface that makes managing your finances a delightful experience. With its intuitive design and engaging visualizations, Ucon transforms your financial journey into an enjoyable and interactive adventure.",
-  // },
+  {
+    id: 4,
+    icon: mark,
+    title: "Saving Goals",
+    text: "Vvlay allows you to create multiple savings goals tailored to your aspirations. Whether it's a down payment for a house, paying off debt, or starting an investment portfolio...",
+  },
+  {
+    id: 5,
+    icon: puzzle,
+    title: "Smart Recommendations",
+    text: "Discover actionable insights and recommendations from Vvlay's intelligent algorithms. Identify areas where you can cut costs, optimize your spending habits...",
+  },
+  {
+    id: 6,
+    icon: smiley,
+    title: "User-Friendly Interface",
+    text: "Vvlay offers a sleek and user-friendly interface that makes managing your finances a delightful experience. With its intuitive design and engaging visualizations,...",
+  },
 ];
 
 export const whatDoing = [
@@ -110,6 +110,7 @@ export const team = [
     major: "CEO & Co-founder",
     img: ulviya,
     color: "#11C751",
+    link: "https://www.linkedin.com/in/ulviya-abasova-02307418a/",
   },
   {
     id: 23,
@@ -117,6 +118,7 @@ export const team = [
     major: "COO & Co-founder",
     img: azer,
     color: "#C7C011",
+    link: "https://www.linkedin.com/in/azer-alizade-mba-pmp®-pmi-acp®-154371133/",
   },
   {
     id: 22,
@@ -124,6 +126,7 @@ export const team = [
     major: "CTO & Co-founder",
     img: jeyhun,
     color: " #11B1C7",
+    link: "https://www.linkedin.com/in/ceyhun-haqverdiyev-04b987210/",
   },
   {
     id: 23,
@@ -131,6 +134,7 @@ export const team = [
     major: "Lawyer",
     img: sovket,
     color: "#9747FF",
+    link: "https://www.linkedin.com/in/shovkat-rasulova-238868222/",
   },
   {
     id: 25,
@@ -138,6 +142,7 @@ export const team = [
     major: "UI/UX Designer",
     img: kenan,
     color: "#16CB95",
+    link: "https://www.linkedin.com/in/kanan1997/",
   },
   {
     id: 24,
@@ -145,6 +150,7 @@ export const team = [
     major: "Software Developer",
     img: aqil,
     color: "#B2830A",
+    link: "https://www.linkedin.com/in/agilaghamirzayev/",
   },
   // {
   //   id: 27,
@@ -158,6 +164,7 @@ export const team = [
     major: "Frontend Developer",
     img: jamila,
     color: "#B20A47",
+    link: "https://www.linkedin.com/in/cemile-israfilzade/",
   },
   {
     id: 28,
@@ -165,6 +172,7 @@ export const team = [
     major: "Flutter Developer",
     img: huseyn,
     color: "#C24904",
+    link: "https://www.linkedin.com/in/huseynveliyev96/",
   },
   // {
   //   id: 29,
@@ -178,6 +186,7 @@ export const team = [
     major: "Graphic Designer",
     img: nicat,
     color: "#0A6CB2",
+    link: "https://www.linkedin.com/in/nijatbadalov/",
   },
   {
     id: 26,
@@ -185,13 +194,14 @@ export const team = [
     major: "Machine Learning Engineer",
     img: aydin,
     color: "#87B20A",
+    link: "https://www.linkedin.com/in/firdouzov/",
   },
 ];
 
 export const faq = [
   {
     id: 99,
-    question: "How can we set up Vvaly account?",
+    question: "How can we set up VValy account?",
     answer:
       "As soon as you download VVALY, you will go through the sign-up process that requires you to enter either an email address and password ",
   },
@@ -203,7 +213,7 @@ export const faq = [
   },
   {
     id: 97,
-    question: "Is VvLay  free?",
+    question: "Is VValy  free?",
     answer:
       "We are providing a one-month trial period for our product, along with offering two subscription options - monthly and yearly, which grant access to premium features.",
   },

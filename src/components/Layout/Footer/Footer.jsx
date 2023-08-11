@@ -11,21 +11,32 @@ const Footer = () => {
       <div className={styles.logoWrapper}>
         <img src={Logo} alt="vvaly" />
         <ul className={styles.socials}>
-          <li>
+          {/* <li>
             <img src={facebook} alt="facebook" />
+          </li> */}
+          <li>
+            <a
+              target="_blank"
+              href="
+            https://www.instagram.com/vvaly.app/"
+            >
+              <img src={insta} alt="instagram" />
+            </a>
           </li>
           <li>
-            <img src={insta} alt="instagram" />
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/vvalyapp/"
+            >
+              <img src={linkedIn} alt="linkedin" />
+            </a>
           </li>
-          <li>
-            <img src={linkedIn} alt="lonkedin" />
-          </li>
-          <li>
+          {/* <li>
             <img src={twitter} alt="twitter" />
-          </li>
+          </li> */}
         </ul>
       </div>
-      <p>Terms & Conditions</p>
+      <p>Terms of Service</p>
     </div>
   );
 };

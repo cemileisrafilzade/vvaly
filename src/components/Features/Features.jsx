@@ -11,7 +11,7 @@ const Features = () => {
             <h3>Features</h3>
             <h1>WE VALUE YOUR FINANCIAL WELLNESS</h1>
           </div>
-          <ul>
+          <ul className="nestedScroll">
             {features.map((item) => (
               <li>
                 <>
@@ -31,20 +31,6 @@ const Features = () => {
                 </>
               </li>
             ))}
-
-            {/* <li>
-          {second.map((item) => (
-            <>
-              <p className={styles.title}>
-                <span>
-                  <img src={item.icon} alt="" />
-                </span>
-                {item.title}
-              </p>
-              <p className={styles.text}>{item.text}</p>
-            </>
-          ))}
-        </li>  */}
           </ul>
         </div>
       </div>

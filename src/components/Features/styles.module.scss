@@ -25,6 +25,12 @@
       margin-bottom: 60px;
     }
     ul {
+      // background-color: red;
+      height: 350px;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        display: none;
+      }
       li {
         background-color: #ffffff;
         border-radius: 8px;
@@ -53,6 +59,7 @@
           color: #8d8d8d;
 
           a {
+            text-decoration: underline;
             color: #11b1c7;
           }
         }
