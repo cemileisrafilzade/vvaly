@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import Logo from "../../../assets/Logo.png";
+import Logo from "../../../assets/Logo.svg";
 // import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className={styles.container}>
-      <img src={Logo} alt="../../assests/Logo.png" />
+      <img src={Logo} alt="../../assests/Logo.svg" />
       <ul>
         <li>
           <a to="/">About us</a>

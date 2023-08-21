@@ -1,5 +1,9 @@
 .container {
-  background-color: #141414;
+  background-color: #000000;
+  background-image: linear-gradient(to right, #11c7511f 1px, transparent 1px),
+  linear-gradient(to bottom, #11c7511f 1px, transparent 1px);
+  background-size: 150px 150px;
+
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -8,6 +12,9 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
+  img{
+    border: 5x solid red !important;
+  }
   ul {
     display: flex;
     list-style: none;
@@ -16,7 +23,7 @@
     li {
       margin-right: 16px;
       padding: 30px;
-      min-width: 140px;
+      width: 140px;
       height: 140px;
       display: flex;
       align-items: center;
@@ -25,6 +32,7 @@
       font-size: 18px;
       font-weight: 400;
       transition: all 0.4s ease-in-out;
+      white-space: nowrap;
       &:hover {
         background-color: #fff;
         color: #141414;
