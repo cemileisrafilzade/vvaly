@@ -1,10 +1,8 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import Logo from "../../../assets/whiteLogo.png";
-import twitter from "../../../assets/TwitterLogo.png";
+import Logo from "../../../assets/whiteLogo.svg";
 import linkedIn from "../../../assets/LinkedinLogo.svg";
-import insta from "../../../assets/InstagramLogo.png";
-import facebook from "../../../assets/FacebookLogo.png";
+import insta from "../../../assets/instagramLogo.svg";
 const Footer = () => {
   return (
     <div className={styles.container}>

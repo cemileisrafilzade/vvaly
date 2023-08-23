@@ -1,0 +1,67 @@
+.container {
+  //   width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  /*
+  * Created with https://www.css-gradient.com
+  * Gradient link: https://www.css-gradient.com/?c1=11c8521f&c2=ffffff&gt=r&gd=dcr
+  */
+  .wrapper {
+    padding-top: 130px;
+    // background: #11c8521f;
+    background: radial-gradient(at right center, #11c8521f, #ffffff);
+  }
+  background-image: linear-gradient(to right, #eeeeef 1px, transparent 1px),
+    linear-gradient(to bottom, #eeeeef 1px, transparent 1px);
+  background-size: 150px 150px;
+  h1 {
+    font-family: Chakra Petch;
+    font-size: 56px;
+    font-weight: bolder;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 50%;
+    color: #11c751;
+    margin: 0 auto;
+  }
+  p {
+    font-family: Chakra Petch;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 20px;
+  }
+  .phone {
+    font-family: Chakra Petch;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  p,
+  a {
+    text-decoration: underline;
+    color: #000000;
+    cursor: pointer;
+  }
+  ul {
+    width: 30%;
+    padding-top: 180px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    li {
+      font-family: Chakra Petch;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 31px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+}

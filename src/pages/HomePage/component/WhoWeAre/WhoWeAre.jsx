@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import first from "../../assets/Polygon1.png";
-import hexa from "../../assets/Polygon3.png";
-import five from "../../assets/Polygon2.png";
+import first from "../../../../assets/Polygon1.png";
+import hexa from "../../../../assets/Polygon3.png";
+import five from "../../../../assets/Polygon2.png";
 const WhoWeAre = () => {
   return (
     <div className={styles.container}>

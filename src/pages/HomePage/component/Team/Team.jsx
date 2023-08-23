@@ -1,8 +1,8 @@
 import React from "react";
-import { team } from "../../mock/mockData";
+import { team } from "../../../../mock/mockData";
 import styles from "./styles.module.scss";
-import linkedin from "../../assets/LinkedinLogo.svg";
-import zaur from "../../assets/zaur.jpg";
+import linkedin from "../../../../assets/LinkedinLogo.svg";
+import zaur from "../../../../assets/zaur.jpg";
 const Team = () => {
   return (
     <div className={styles.container}>

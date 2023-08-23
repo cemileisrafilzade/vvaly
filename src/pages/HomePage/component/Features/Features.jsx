@@ -1,7 +1,7 @@
 import React from "react";
-import { features } from "../../mock/mockData";
+import { features } from "../../../../mock/mockData";
 import styles from "./styles.module.scss";
-import phone from "../../assets/rightPhoneImg.png";
+import phone from "../../../../assets/rightPhoneImg.png";
 const Features = () => {
   return (
     <div className={styles.container}>

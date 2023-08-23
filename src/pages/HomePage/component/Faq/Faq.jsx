@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import qstn from "../../assets/qstn.png";
-import { faq } from "../../mock/mockData";
+import qstn from "../../../../assets/qstn.png";
+import { faq } from "../../../../mock/mockData";
 function Faq() {
   return (
     <div className={styles.container}>

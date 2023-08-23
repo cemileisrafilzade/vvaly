@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import phone from "../../assets/phoneScreen.png";
+import phone from "../../../../assets/phoneScreen.png";
 const Slogan = () => {
   return (
     <div className={styles.slogan}>

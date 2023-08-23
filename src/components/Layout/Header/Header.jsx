@@ -1,24 +1,32 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import Logo from "../../../assets/Logo.svg";
-// import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import BlackLogo from "../../../assets/blackLogo.svg";
 const Header = () => {
+  const location = useLocation().pathname;
+
   return (
-    <div className={styles.container}>
-      <img src={Logo} alt="../../assests/Logo.svg" />
+    <div
+      className={location === "/" ? styles.container : styles.whiteContainer}
+    >
+      <img
+        src={location === "/" ? Logo : BlackLogo}
+        alt="../../assests/Logo.svg"
+      />
       <ul>
         <li>
-          <a to="/">About us</a>
+          <Link to="/about">About us</Link>
         </li>
         <li>
-          <a to="/">Features</a>
+          <Link to="/">Features</Link>
         </li>
 
         <li>
-          <a to="/">Blog</a>
+          <Link to="/">Blog</Link>
         </li>
         <li>
-          <a to="/">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </div>
