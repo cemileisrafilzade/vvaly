@@ -13,6 +13,11 @@
     color: #a6a6a6;
     line-height: 26px;
     padding-top: 46px;
+    @media (max-width:600px) {
+      font-size: 18px;
+      line-height: 23px;
+      padding-top: 30px;
+    }
   }
   // position: relative;
 }
@@ -24,6 +29,11 @@
   justify-content: space-between;
   padding: 32px 0;
   border-bottom: 0.7px solid #a6a6a6;
+  .logo{
+    @media (max-width:600px) {
+      width: 110px;
+    }
+  }
   ul {
     list-style: none;
     display: flex;
@@ -35,6 +45,17 @@
         width: 32px;
         height: 32px;
         object-fit: cover;
+
+      }
+
+    }
+    @media (max-width:600px) {
+      gap: 25px;
+      li{
+        img{
+          width: 25px;
+          height: 25px;
+        }
       }
     }
   }

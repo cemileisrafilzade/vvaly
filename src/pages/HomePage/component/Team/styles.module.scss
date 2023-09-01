@@ -2,11 +2,20 @@
   padding: 88px 10%;
   padding-bottom: 100px;
   background-color: #000000;
+  @media (max-width:768px) {
+    // padding: 10px;
+    padding-bottom: 10px;
+  }
   h2 {
     color: #11c751;
     font-weight: 500;
     font-size: 24px;
     line-height: 31px;
+    @media (max-width: 768px) {
+      font-size: 18px;
+
+      line-height: 23px;
+    }
   }
   h1 {
     font-size: 56px;
@@ -14,6 +23,12 @@
     font-weight: 700;
     width: 55%;
     color: #ffffff;
+    @media (max-width: 800px) {
+      font-size: 32px;
+      line-height: 41px;
+      width: 75%;
+      margin-bottom: 50px;
+    }
   }
 }
 .cover {
@@ -37,18 +52,28 @@
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 24px;
+  @media (max-width: 1000px) and (min-width: 800px) {
+    grid-template-columns: auto auto;
+  }
+  @media (max-width: 800px) {
+    grid-template-columns: auto;
+
+  }
   .member {
     display: flex;
     flex-direction: column;
     position: relative;
     // align-items: center;
-    width: 347px;
+    max-width: 347px;
     height: 387px;
     background-color: #1d1d1d;
     border-radius: 6px;
     padding: 24px 0 0 14px;
     transition: all 2s ease-in-out;
 
+    @media (max-width: 800px) and (min-width:500px) {
+      // margin: 0 auto;
+    }
     // &:hover {
     //   opacity: 0.05;
     //   // transition: opacity 0.3s ease-in-out;
@@ -118,9 +143,20 @@
     &:first-child {
       opacity: 0.5;
     }
+    @media (max-width:1000px) {
+      display: none;
+    }
+  }
+  @media (max-width:800px) {
+  flex-direction: column;
+  margin-top: 100px;
   }
   .mentorTxt {
     width: 50%;
+    @media (max-width:800px) {
+      width: 100%;
+      
+    }
     h5 {
       color: #11c751;
       font-family: Chakra Petch;
@@ -155,6 +191,26 @@
     padding: 20px;
     background: rgba(64, 64, 64, 0.5);
     position: relative;
+    @media (max-width:1200px) and (min-width:980px) {
+      min-width: 30%;
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+    @media (max-width:980px) and (min-width:768px) {
+      min-width: 36%;
+    }
+    @media (max-width:768px) and (min-width:600px) {
+      min-width: 40%;
+    }
+    @media (max-width:600px) {
+      min-width: 55%;
+    }
+    @media (max-width:450px) {
+      min-width: 80%;
+    }
+    @media (max-width:800px) {
+      margin-bottom: 20px;
+    }
     h1 {
       color: #fff;
       font-family: Chakra Petch;
@@ -166,6 +222,11 @@
       text-transform: uppercase;
       white-space: nowrap;
       width: 100%;
+      @media (max-width:800px) {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 5px;
+      }
     }
     p {
       color: #8d8d8d;
@@ -177,6 +238,11 @@
       line-height: 21px; /* 150% */
       letter-spacing: -0.42px;
       text-transform: capitalize;
+      @media (max-width:800px) {
+        font-size: 12px;
+        line-height: 18px;
+        
+      }
     }
     img {
       width: 224px;
@@ -184,6 +250,10 @@
       border-radius: 40px;
       object-fit: cover;
       border: 1.613px solid #454545;
+      @media (max-width:800px) {
+        width: 179px;
+        height: 228px;
+      }
     }
     .linkedinLink {
       position: absolute;

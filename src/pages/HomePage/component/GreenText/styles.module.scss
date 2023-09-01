@@ -6,12 +6,16 @@
 
   h1 {
     color: #000000;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 56px;
     line-height: 72px;
     width: 100%;
     white-space: nowrap;
-    animation: scrollText 30s infinite linear;
+    animation: scrollText 30s xinfinite linear;
+    @media (max-width: 800px) {
+      font-size: 32px;
+      line-height: 41px;
+    }
   }
   @keyframes scrollText {
     from {

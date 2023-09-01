@@ -5,6 +5,7 @@ function routes() {
   const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
   const AboutPage = React.lazy(() => import("./pages/About/AboutPage"));
   const ContactPage = React.lazy(() => import("./pages/Contact/ContactPage"));
+  const FeaturesPage = React.lazy(() => import("./pages/Features/Features"));
   return (
     <Routes>
       <Route
@@ -29,6 +30,14 @@ function routes() {
         element={
           <React.Suspense fallback={<div>Loading...</div>}>
             <ContactPage />
+          </React.Suspense>
+        }
+      />
+      <Route
+        path="/features"
+        element={
+          <React.Suspense fallback={<div>Loading...</div>}>
+            <FeaturesPage />
           </React.Suspense>
         }
       />

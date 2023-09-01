@@ -1,0 +1,44 @@
+.features {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 170px;
+  background-size: 150px 150px;
+
+  background-image: linear-gradient(to right, #11c7511f 1px, transparent 1px),
+    linear-gradient(to bottom, #11c7511f 1px, transparent 1px);
+  .right {
+    width: 60%;
+    h3 {
+      font-size: 24px;
+      line-height: 31px;
+      color: #11c751;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 56px;
+      line-height: 72px;
+      font-weight: bolder;
+      width: 80%;
+      margin-bottom: 90px;
+    }
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    li {
+      cursor: pointer;
+      font-size: 14px;
+      padding-bottom: 20px;
+      color: #737373;
+      line-height: 18px;
+    }
+    .active {
+      color: #fff;
+      border-bottom: 1px solid #11c751;
+    }
+  }
+}

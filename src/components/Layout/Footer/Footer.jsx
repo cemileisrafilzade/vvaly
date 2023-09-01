@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logoWrapper}>
-        <img src={Logo} alt="vvaly" />
+        <img className={styles.logo} src={Logo} alt="vvaly" />
         <ul className={styles.socials}>
           {/* <li>
             <img src={facebook} alt="facebook" />
@@ -34,7 +34,7 @@ const Footer = () => {
           </li> */}
         </ul>
       </div>
-      <p>Terms of Service</p>
+      <p>Terms of Services</p>
     </div>
   );
 };

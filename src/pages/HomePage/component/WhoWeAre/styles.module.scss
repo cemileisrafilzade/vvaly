@@ -2,19 +2,29 @@
   padding: 90px 10%;
 
   font-family: "Chakra Petch";
-
+  @media (max-width: 768px) {
+    padding: 60px 5%;
+  }
   .firstWrapper {
     h1 {
       font-weight: 700;
       font-size: 56px;
       line-height: 72px;
       color: #000000;
+      @media (max-width: 768px) {
+        font-size: 32px;
+        line-height: 41px;
+      }
     }
     h5 {
       color: #11c751;
       font-weight: 500;
       font-size: 24px;
       line-height: 31px;
+      @media (max-width: 768px) {
+        font-size: 18px;
+        line-height: 23px;
+      }
     }
 
     display: flex;
@@ -23,12 +33,19 @@
       width: 40%;
       color: #8d8d8d;
     }
+    @media (max-width: 800px) {
+      flex-direction: column;
+      p {
+        width: 100%;
+      }
+    }
   }
   ul {
     display: flex;
     margin-top: 80px;
     justify-content: space-between;
     // align-items: center;
+
     li {
       width: 30%;
       padding-top: 30px;
@@ -46,6 +63,14 @@
         font-size: 16px;
         line-height: 20px;
         font-weight: 500;
+      }
+    }
+    @media (max-width: 800px) {
+      flex-direction: column !important;
+margin-top: 40px;
+      li {
+        width: 100%;
+        margin-top: 40px;
       }
     }
   }

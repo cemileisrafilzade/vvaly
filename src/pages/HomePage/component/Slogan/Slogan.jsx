@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import phone from "../../../../assets/phoneScreen.png";
+import down from "../../../../assets/icons/down.svg";
 const Slogan = () => {
   return (
     <div className={styles.slogan}>
@@ -8,6 +9,9 @@ const Slogan = () => {
       <p>
         VVALY is a revolutionary budget management app that empowers you to take
         control of your finances and make informed financial decisions.
+        {/* <div className={styles.down}>
+          <img src={down} alt="" />
+        </div> */}
       </p>
       <img src={phone} alt="app photo" />
     </div>
