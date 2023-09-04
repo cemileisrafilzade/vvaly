@@ -3,11 +3,15 @@ import styles from "./styles.module.scss";
 import Logo from "../../../assets/whiteLogo.svg";
 import linkedIn from "../../../assets/LinkedinLogo.svg";
 import insta from "../../../assets/instagramLogo.svg";
+import { useNavigate } from "react-router-dom";
 const Footer = () => {
+  const navigate=useNavigate()
   return (
     <div className={styles.container}>
       <div className={styles.logoWrapper}>
-        <img className={styles.logo} src={Logo} alt="vvaly" />
+        <img className={styles.logo} 
+        onClick={()=>{navigate('/')}}
+        src={Logo} alt="vvaly" />
         <ul className={styles.socials}>
           {/* <li>
             <img src={facebook} alt="facebook" />

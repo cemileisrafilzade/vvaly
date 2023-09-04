@@ -9,7 +9,9 @@ const Layout = ({ children }) => {
     <div>
       <Header />
       {children}
-      {location !== "/contact"||"/features" && <Footer />}
+      {location !== "/contact"&&
+      // location!=="/features" &&
+       <Footer />}
     </div>
   );
 };

@@ -172,7 +172,25 @@
   }
 }
 .logo {
+  cursor: pointer;
   @media (max-width: 800px) {
     width: 120px;
   }
+}
+
+.whiteActive {
+  color: #fff !important;
+  background-color: #000000 !important;
+  cursor: pointer;
+  font-weight: 600;
+
+  font-size: 18px;
+}
+.active {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  cursor: pointer;
+  font-weight: 600;
+
+  font-size: 18px;
 }

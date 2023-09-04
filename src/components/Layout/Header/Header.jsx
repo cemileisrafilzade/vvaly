@@ -1,36 +1,38 @@
 import React, { useState } from "react";
 import styles from "./styles.module.scss";
 import Logo from "../../../assets/Logo.svg";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import BlackLogo from "../../../assets/blackLogo.svg";
 import MenuIcon from "../../../assets/icons/menu.svg";
 import cancelIcon from "../../../assets/icons/cancel.svg";
 const Header = () => {
+  const navigate=useNavigate()
   const location = useLocation().pathname;
   const [openedBurger, setOpenedBurger] = useState(false);
   return (
     <div
-      className={location === "/"||"/features" ? styles.container : styles.whiteContainer}
+      className={location === "/"||location==="/features" ? styles.container : styles.whiteContainer}
     >
       <img
+      onClick={()=>{navigate('/')}}
         className={styles.logo}
-        src={location === "/" ||"/features"? Logo : BlackLogo}
+        src={location === "/" ||location==="/features"? Logo : BlackLogo}
         alt="../../assests/Logo.svg"
       />
 
       <ul className={styles.desktopList}>
         <li>
-          <Link to="/about">About us</Link>
+          <Link className={location==='/about'&&styles.whiteActive}  to="/about">About us</Link>
         </li>
         <li>
-          <Link to="/features">Features</Link>
+          <Link className={location==='/features'&&styles.active}  to="/features">Features</Link>
         </li>
 
         <li>
-          <Link to="/">Blog</Link>
+          <Link className={location==='/blog'&&styles.active}  to="/">Blog</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link className={location==='/contact'&&styles.whiteActive}  to="/contact">Contact</Link>
         </li>
       </ul>
 
@@ -44,17 +46,17 @@ const Header = () => {
         {openedBurger && (
           <ul className={location === "/" ? styles.black : styles.white}>
             <li>
-              <Link to="/about">About us</Link>
+              <Link className={location==='/about'&&styles.active} to="/about">About us</Link>
             </li>
             <li>
-              <Link to="/features">Features</Link>
+              <Link className={location==='/features'&&styles.active} to="/features">Features</Link>
             </li>
 
             <li>
-              <Link to="/">Blog</Link>
+              <Link className={location==='/blog'&&styles.active} to="/">Blog</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link className={location==='/contact'&&styles.active} to="/contact">Contact</Link>
             </li>
           </ul>
         )}
