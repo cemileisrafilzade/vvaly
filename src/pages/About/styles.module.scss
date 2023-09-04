@@ -91,15 +91,16 @@
     position: relative;
     right: 0;
     float: right;
+    z-index: inherit;
   }
   .secondImg {
     width: 45%;
-    margin-top:-150px;
-    border: 2px solid #000000;
-    border-radius: 8px;
+    margin-top: -150px;
     position: relative;
+    z-index: 999999999 !important;
   }
-  .thirdImg{
+  .thirdImg {
+    z-index: inherit;
     width: 48%;
     position: relative;
     float: right;
@@ -122,8 +123,10 @@
     letter-spacing: 0em;
     text-align: left;
     color: #bebfc0;
+
   }
   img {
+
     width: 55%;
     // width: 588px;
     // height: 448px;

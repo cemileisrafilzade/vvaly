@@ -11,7 +11,7 @@
     line-height: 72px;
     width: 100%;
     white-space: nowrap;
-    animation: scrollText 30s xinfinite linear;
+    animation: scrollText 30s infinite linear;
     @media (max-width: 800px) {
       font-size: 32px;
       line-height: 41px;
@@ -19,7 +19,7 @@
   }
   @keyframes scrollText {
     from {
-      transform: translateX(100%);
+      transform: translateX(-200%);
     }
     to {
       transform: translateX(-100%);
