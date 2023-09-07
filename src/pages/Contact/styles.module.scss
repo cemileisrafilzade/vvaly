@@ -1,19 +1,21 @@
 .container {
-  //   width: 50%;
   text-align: center;
   margin: 0 auto;
-  /*
-  * Created with https://www.css-gradient.com
-  * Gradient link: https://www.css-gradient.com/?c1=11c8521f&c2=ffffff&gt=r&gd=dcr
-  */
+
   .wrapper {
     padding-top: 130px;
-    // background: #11c8521f;
-    // background: radial-gradient(at right center, #11c8521f, #ffffff);
+    background: radial-gradient(
+      circle at calc(100% - 200px),
+      rgba(17, 199, 81, 0.2358193277310925) 0%,
+      rgba(248, 253, 250, 1) 21%,
+      rgba(255, 255, 255, 1) 31%,
+      rgba(255, 255, 255, 1) 84%
+    );
   }
   background-image: linear-gradient(to right, #eeeeef 1px, transparent 1px),
     linear-gradient(to bottom, #eeeeef 1px, transparent 1px);
   background-size: 150px 150px;
+
   h1 {
     font-family: Chakra Petch;
     font-size: 56px;
