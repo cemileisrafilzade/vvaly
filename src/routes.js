@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-
+import "./App.css";
 function routes() {
   const HomePage = React.lazy(() => import("./pages/HomePage/HomePage"));
   const AboutPage = React.lazy(() => import("./pages/About/AboutPage"));
@@ -11,7 +11,7 @@ function routes() {
       <Route
         path="/"
         element={
-          <React.Suspense fallback={<div>Loading...</div>}>
+          <React.Suspense fallback={<div className="loading">Loading...</div>}>
             <HomePage />
           </React.Suspense>
         }
@@ -20,7 +20,7 @@ function routes() {
       <Route
         path="/about"
         element={
-          <React.Suspense fallback={<div>Loading...</div>}>
+          <React.Suspense fallback={<div className="loading">Loading...</div>}>
             <AboutPage />
           </React.Suspense>
         }
@@ -28,7 +28,7 @@ function routes() {
       <Route
         path="/contact"
         element={
-          <React.Suspense fallback={<div>Loading...</div>}>
+          <React.Suspense fallback={<div className="loading">Loading...</div>}>
             <ContactPage />
           </React.Suspense>
         }
@@ -36,7 +36,7 @@ function routes() {
       <Route
         path="/features"
         element={
-          <React.Suspense fallback={<div>Loading...</div>}>
+          <React.Suspense fallback={<div className="loading">Loading...</div>}>
             <FeaturesPage />
           </React.Suspense>
         }

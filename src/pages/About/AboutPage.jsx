@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import first from "../../assets/about/first.svg";
+import first from "../../assets/about/first.png";
 import second from "../../assets/about/second.svg";
 import last from "../../assets/about/last.svg";
 import third from "../../assets/about/third.svg";

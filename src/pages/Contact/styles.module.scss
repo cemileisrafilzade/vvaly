@@ -11,6 +11,9 @@
       rgba(255, 255, 255, 1) 31%,
       rgba(255, 255, 255, 1) 84%
     );
+    @media (max-width: 800px) {
+      padding-top: 70px;
+    }
   }
   background-image: linear-gradient(to right, #eeeeef 1px, transparent 1px),
     linear-gradient(to bottom, #eeeeef 1px, transparent 1px);
@@ -26,6 +29,12 @@
     width: 50%;
     color: #11c751;
     margin: 0 auto;
+    font-weight: 700;
+    @media (max-width: 800px) {
+      font-size: 32px;
+      width: 95%;
+      line-height: 41px;
+    }
   }
   p {
     font-family: Chakra Petch;
@@ -35,6 +44,11 @@
     letter-spacing: 0em;
     text-align: center;
     padding: 20px;
+    @media (max-width: 800px) {
+      font-size: 24px;
+      line-height: 31px;
+      padding: 10px;
+    }
   }
   .phone {
     font-family: Chakra Petch;
@@ -51,12 +65,16 @@
     cursor: pointer;
   }
   ul {
-    width: 30%;
+    width: 35%;
     padding-top: 180px;
     margin: 0 auto;
     padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 800px) {
+      width: 90%;
+      padding-top: 60%;
+    }
     li {
       font-family: Chakra Petch;
       font-size: 24px;
@@ -64,6 +82,11 @@
       line-height: 31px;
       letter-spacing: 0em;
       text-align: center;
+      padding-right: 10px;
+      @media (max-width: 800px) {
+        font-size: 18px;
+        line-height: 23px;
+      }
     }
   }
 }
