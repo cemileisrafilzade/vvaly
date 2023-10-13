@@ -182,6 +182,8 @@ z-index: 9999999999999;
 }
 .logo {
   cursor: pointer;
+  position: relative;
+  z-index: 999999999999;
   @media (max-width: 800px) {
     width: 120px;
   }
