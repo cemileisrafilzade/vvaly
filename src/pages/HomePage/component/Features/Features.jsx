@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { features } from "../../../../mock/mockData";
 import styles from "./styles.module.scss";
 import phone from "../../../../assets/rightPhoneImg.png";
+import shadow from '../../../../assets/shadow.png'
 const Features = () => {
   // const [scrolledToBottom, setScrolledToBottom] = useState(true);
   // const containerRef = useRef(null);
@@ -70,7 +71,10 @@ const Features = () => {
         </div>
       </div>
       <div className={styles.rightImg}>
+
         <img src={phone} alt="background image" />
+      <img className={styles.shadow} src={shadow} alt="" />
+      
       </div>
     </div>
   );

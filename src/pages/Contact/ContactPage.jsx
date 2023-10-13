@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
+import shadow from "../../assets/shadow.png";
 function ContactPage() {
   return (
     <div className={styles.container}>
@@ -19,6 +20,8 @@ function ContactPage() {
           </li>
         </ul>
       </div>
+
+      <img className={styles.shadow} src={shadow} alt="" />
     </div>
   );
 }

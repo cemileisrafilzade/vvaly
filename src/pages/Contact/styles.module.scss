@@ -1,24 +1,27 @@
 .container {
   text-align: center;
   margin: 0 auto;
-
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  .shadow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
   .wrapper {
     padding-top: 130px;
-    background: radial-gradient(
-      circle at calc(100% - 200px),
-      rgba(17, 199, 81, 0.2358193277310925) 0%,
-      rgba(248, 253, 250, 1) 21%,
-      rgba(255, 255, 255, 1) 31%,
-      rgba(255, 255, 255, 1) 84%
-    );
+    position: relative;
     @media (max-width: 800px) {
       padding-top: 70px;
     }
   }
   background-image: linear-gradient(to right, #eeeeef 1px, transparent 1px),
-    linear-gradient(to bottom, #eeeeef 1px, transparent 1px);
+  linear-gradient(to bottom, #eeeeef 1px, transparent 1px);
   background-size: 150px 150px;
-
+  
   h1 {
     font-family: Chakra Petch;
     font-size: 56px;
@@ -26,8 +29,7 @@
     line-height: 73px;
     letter-spacing: 0em;
     text-align: center;
-    width: 50%;
-    color: #11c751;
+    width: 70%;
     margin: 0 auto;
     font-weight: 700;
     @media (max-width: 800px) {
@@ -65,7 +67,7 @@
     cursor: pointer;
   }
   ul {
-    width: 35%;
+    width: 50%;
     padding-top: 180px;
     margin: 0 auto;
     padding-bottom: 40px;

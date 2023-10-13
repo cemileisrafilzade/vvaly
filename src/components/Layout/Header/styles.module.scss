@@ -24,6 +24,8 @@
     list-style: none;
     text-transform: uppercase;
     font-family: "Chakra Petch";
+    position: relative;
+    z-index: 999999999999;
     @media (max-width: 800px) {
       display: none;
     }
@@ -141,7 +143,9 @@
     transition: margin-left 0.3s ease;
     margin-left: 0;
     position: absolute;
+
     background-color: #000;
+
     margin-top: 160%;
     height: 80vh;
     left: 0;

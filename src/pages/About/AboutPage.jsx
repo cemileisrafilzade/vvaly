@@ -5,18 +5,21 @@ import second from "../../assets/about/second.svg";
 import last from "../../assets/about/last.svg";
 import third from "../../assets/about/third.svg";
 // import "aos/dist/aos.css";
-
+import shadow from "../../assets/shadow.png";
 function AboutPage() {
   return (
     <div className={styles.container}>
       <div className={styles.whiteSection}>
-        <h1>WHO WE ARE?</h1>
-        <p>
-          VValy is a revolutionary budget management app that empowers you to
-          take control of your finances and make informed financial
-          decisions. Say goodbye to the stress of money management and hello to
-          a new, fun, and rewarding financial journey!
-        </p>
+        {/* <div> */}
+          <h1>WHO WE ARE?</h1>
+          <p>
+            VValy is a revolutionary budget management app that empowers you to
+            take control of your finances and make informed financial
+            decisions. Say goodbye to the stress of money management and hello
+            to a new, fun, and rewarding financial journey!
+          </p>
+          {/* <img className={styles.shadow} src={shadow} alt="" /> */}
+        {/* </div> */}
       </div>
       <div className={styles.blackSection}>
         <img className={styles.mainImg} src={first} alt="" />

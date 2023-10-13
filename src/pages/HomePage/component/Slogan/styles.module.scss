@@ -9,9 +9,32 @@
 
   background-image: linear-gradient(to right, #11c7511f 1px, transparent 1px),
     linear-gradient(to bottom, #11c7511f 1px, transparent 1px);
+    div{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      // border: 5px solid red;
+      justify-content: center;
+      position: relative;
+      align-items: center;
+    width: 100%;
+text-align: center;
+img{
+  position: absolute;
+  float:right;
+  // border: 5px solid green;
+  right: 0;
+  bottom: 0;
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+    }
   p {
+    // border: 5px solid red;
+    // position: absolute;
     color: #8d8d8d;
-    width: 46%;
+    width: 50%;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -39,7 +62,12 @@
     font-weight: 600;
     line-height: 120%; /* 96px */
     letter-spacing: -2.4px;
-    @media (max-width: 1200px) and (min-width: 800px) {
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=11c852&c2=000000&gt=r&gd=dcr
+*/
+
+  @media (max-width: 1200px) and (min-width: 800px) {
       width: 75%;
     }
     @media (max-width: 800px) {
