@@ -130,7 +130,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 100%;
-  
+
   .icon {
     display: flex;
     align-items: center;
@@ -145,11 +145,10 @@
   ul {
     transition: margin-left 0.3s ease;
     margin-left: 0;
-    
-    position: absolute;
-z-index: 9999999999999;
-    background-color: #000;
 
+    position: absolute;
+    z-index: 9999999999999;
+    background-color: #000;
     margin-top: 160%;
     height: 80vh;
     left: 0;
