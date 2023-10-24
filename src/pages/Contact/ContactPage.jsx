@@ -6,17 +6,32 @@ function ContactPage() {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <h1>HAVE WE SPARKED YOUR INTEREST?</h1>
-        <p>example@gmail.com</p>
-        <p className={styles.phone}>+994 50 123 45 67</p>
+        <p>
+          <a href="mailto: vvaly.office@gmail.com">vvaly.office@gmail.com</a>
+        </p>
+        <p className={styles.phone}>
+          <a href="tel:+48795887524">+48 795887524</a>
+        </p>
         <ul>
           <li>
-            <a>Linkedin</a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/vvalyapp/"
+            >
+              Linkedin
+            </a>
           </li>
-          <li>
+          {/* <li>
             <a>Facebook</a>
-          </li>
+          </li> */}
           <li>
-            <a>Instagram</a>
+            <a
+              target="_blank"
+              href="
+           https://www.instagram.com/vvaly.app/"
+            >
+              Instagram
+            </a>
           </li>
         </ul>
       </div>
