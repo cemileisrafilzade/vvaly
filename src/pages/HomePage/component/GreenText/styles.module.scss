@@ -1,0 +1,28 @@
+.container {
+  background-color: #11c751;
+  padding: 40px 0;
+  overflow-x: hidden;
+  width: 100%;
+
+  h1 {
+    color: #000000;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 72px;
+    width: 100%;
+    white-space: nowrap;
+    animation: scrollText 30s infinite linear;
+    @media (max-width: 800px) {
+      font-size: 32px;
+      line-height: 41px;
+    }
+  }
+  @keyframes scrollText {
+    from {
+      transform: translateX(-200%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}

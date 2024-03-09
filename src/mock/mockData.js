@@ -9,12 +9,13 @@ import aqil from "../assets/team/aqil.png";
 import aydin from "../assets/team/aydin.png";
 import azer from "../assets/team/azer.png";
 import huseyn from "../assets/team/huseyn.png";
+import ramal from "../assets/team/ramal.png";
 import jamila from "../assets/team/jamila.png";
 import jeyhun from "../assets/team/jeyhun.png";
 import kenan from "../assets/team/kenan.png";
 import nicat from "../assets/team/nicat.png";
 import sovket from "../assets/team/sovket.png";
-
+import tural from '../assets/team/tural.png'
 export const features = [
   {
     id: 1,
@@ -168,11 +169,11 @@ export const team = [
   },
   {
     id: 28,
-    name: "Huseyn Valiyev",
-    major: "Flutter Developer",
-    img: huseyn,
+    name: "Ramal ibadov",
+    major: "Software Engineer",
+    img: ramal,
     color: "#C24904",
-    link: "https://www.linkedin.com/in/huseynveliyev96/",
+    link: "https://www.linkedin.com/in/ramal-ibadov",
   },
   // {
   //   id: 29,
@@ -195,6 +196,14 @@ export const team = [
     img: aydin,
     color: "#87B20A",
     link: "https://www.linkedin.com/in/firdouzov/",
+  },
+  {
+    id: 32,
+    name: "Tural Abbasov",
+    major: "Business Development Manager",
+    img: tural,
+    color: "#9747FF",
+    link: "https://www.linkedin.com/in/tural-abbasov16/",
   },
 ];
 

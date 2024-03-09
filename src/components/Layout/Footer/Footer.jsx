@@ -1,15 +1,17 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import Logo from "../../../assets/whiteLogo.png";
-import twitter from "../../../assets/TwitterLogo.png";
-import linkedIn from "../../../assets/LinkedinLogo.png";
-import insta from "../../../assets/InstagramLogo.png";
-import facebook from "../../../assets/FacebookLogo.png";
+import Logo from "../../../assets/whiteLogo.svg";
+import linkedIn from "../../../assets/LinkedinLogo.svg";
+import insta from "../../../assets/instagramLogo.svg";
+import { useNavigate } from "react-router-dom";
 const Footer = () => {
+  const navigate=useNavigate()
   return (
     <div className={styles.container}>
       <div className={styles.logoWrapper}>
-        <img src={Logo} alt="vvaly" />
+        <img className={styles.logo} 
+        onClick={()=>{navigate('/')}}
+        src={Logo} alt="vvaly" />
         <ul className={styles.socials}>
           {/* <li>
             <img src={facebook} alt="facebook" />
@@ -36,7 +38,7 @@ const Footer = () => {
           </li> */}
         </ul>
       </div>
-      <p>Terms of Service</p>
+      <p>Terms of Services</p>
     </div>
   );
 };

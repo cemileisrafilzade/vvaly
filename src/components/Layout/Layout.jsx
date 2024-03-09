@@ -1,15 +1,19 @@
-import React from 'react';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
+import React from "react";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
+import { useLocation } from "react-router-dom";
 
-const Layout = ({children}) => {
-    return (
-        <div>
-            <Header/>
-            {children}
-            <Footer/>
-        </div>
-    );
-}
+const Layout = ({ children }) => {
+  const location = useLocation().pathname;
+  return (
+    <div>
+      <Header />
+      {children}
+      {location !== "/contact"&&
+      // location!=="/features" &&
+       <Footer />}
+    </div>
+  );
+};
 
 export default Layout;

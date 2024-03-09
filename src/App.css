@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  height: 100vh;
+}
