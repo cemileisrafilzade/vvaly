@@ -126,6 +126,8 @@
   justify-content: space-between;
   margin-bottom: 150px;
   margin-top: 190px;
+  width: 100% !important;
+padding-top: 20px;
   .navBtns {
     cursor: pointer;
     line-height: 25px;
@@ -138,19 +140,34 @@
     border-radius: 100%;
     border: 2px solid #c6c6c6;
     background: rgba(70, 70, 70, 0.5);
-
     color: #fff;
-    &:first-child {
-      opacity: 0.5;
-    }
     @media (max-width:1000px) {
-      display: none;
+      &:first-child {
+     display: none;
+     margin-top: 35px;
+      }
+  
+      // display: none;
     }
   }
+  @media (max-width:1000px) {
+
+display: flex;
+flex-direction: column;
+width: 100%;
+
+align-items: center;
+justify-content: left;
+    overflow-x: scroll !important;
+  &::-webkit-scrollbar {
+    display: block;
+  }
+}
   @media (max-width:800px) {
-  flex-direction: column;
+  // flex-direction: column;
   margin-top: 100px;
   }
+
   .mentorTxt {
     width: 50%;
     @media (max-width:800px) {

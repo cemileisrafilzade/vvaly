@@ -15,7 +15,10 @@ import jeyhun from "../assets/team/jeyhun.png";
 import kenan from "../assets/team/kenan.png";
 import nicat from "../assets/team/nicat.png";
 import sovket from "../assets/team/sovket.png";
-import tural from '../assets/team/tural.png'
+import tural from "../assets/team/tural.png";
+import jarek from "../assets/jarek.jpeg";
+import zaur from "../assets/zaur.jpg";
+import maciek from "../assets/team/maciej.jpeg";
 export const features = [
   {
     id: 1,
@@ -205,6 +208,14 @@ export const team = [
     color: "#9747FF",
     link: "https://www.linkedin.com/in/tural-abbasov16/",
   },
+  {
+    id: 33,
+    name: "Maciej Kasztelanic",
+    img: maciek,
+    color: "#B20A47",
+    major: "Pricing enthusiast|Data science|Business analytics ",
+    link: "https://www.linkedin.com/in/maciej-kasztelanic-960556247",
+  },
 ];
 
 export const faq = [
@@ -225,5 +236,23 @@ export const faq = [
     question: "Is VValy  free?",
     answer:
       "We are providing a one-month trial period for our product, along with offering two subscription options - monthly and yearly, which grant access to premium features.",
+  },
+];
+export const mentors = [
+  {
+    id: 1,
+    image: zaur,
+    name: "ZAUR ALAKBAROV",
+    linkedin: "https://www.linkedin.com/in/zaur-alakbarov-b8474621/",
+    mission: "Adviser to the Chairman of the Management Board",
+    text: " Zaur Alakbarov - Adviser to the Chairman of the Management Board at international Bank Of Azerbaijan Zaur has a diverse track record and over 15 years of professional experience in entrepreneurship, innovation, fintech and conventional banking.Currently leading open innovation initiatives of ABB Bank. He holds an MBA degree from the IMD Business School in Switzerland and bachelor degree in economics from the University of Economics of Azerbaijan.",
+  },
+  {
+    id: 2,
+    image: jarek,
+    name: "JAREK SARWA",
+    linkedin: "https://www.linkedin.com/in/jarek-sarwa-6253a4/",
+    mission: "Fintech expert in Poland",
+    text: "Jarek is an experienced FinTech business and technology expert who supports fintechs through accelerating growth/ scaling and enabling the global expansions and shows them the direction forward. He is well regarded by his clients for the abilities to build and execute Go-To-Market strategies and introducing them to the global fintech ecosystem. As a Master Connector at FinTech Connector, Jarek identifies effective matchups, creates connections and cultivates collaborations on a global scale by personalized and high-value approach to connecting people.Professional with entrepreneurial and 10+ years’ experience as abusiness executive and business adviser with a passion for emerging trends and technologies in FinTech.",
   },
 ];

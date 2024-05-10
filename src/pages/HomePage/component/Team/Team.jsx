@@ -1,9 +1,14 @@
-import React from "react";
-import { team } from "../../../../mock/mockData";
+import React, { useState, useEffect } from "react";
+import { mentors, team } from "../../../../mock/mockData";
 import styles from "./styles.module.scss";
 import linkedin from "../../../../assets/LinkedinLogo.svg";
-import zaur from "../../../../assets/zaur.jpg";
+
 const Team = () => {
+
+  const [mentor, setMentor] = useState(mentors[0]);
+  const handleSlider = () => {
+    mentor === mentors[0] ? setMentor(mentors[1]) : setMentor(mentors[0]);
+  };
   return (
     <div className={styles.container}>
       <h2>Our Team</h2>
@@ -33,32 +38,32 @@ const Team = () => {
       </div>
 
       <div className={styles.mentor}>
-        <div className={styles.navBtns}>{"<"}</div>
-        <div className={styles.imgCard}>
-          <img src={zaur} alt="" />
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/zaur-alakbarov-b8474621/"
-            className={styles.linkedinLink}
-          >
-            <img src={linkedin} />
-          </a>
-          <h1>ZAUR ALAKBAROV</h1>
-          <p>Adviser to the Chairman of the Management Board</p>
+        <div onClick={() => handleSlider()} className={styles.navBtns}>
+          {"<"}
         </div>
-        <div className={styles.mentorTxt}>
-          <h5>our mentor</h5>
-          <p>
-            Zaur Alakbarov - Adviser to the Chairman of the Management Board at
-            international Bank Of Azerbaijan Zaur has a diverse track record and
-            over 15 years of professional experience in entrepreneurship,
-            innovation, fintech and conventional banking. Currently leading open
-            innovation initiatives of ABB Bank. He holds an MBA degree from the
-            IMD Business School in Switzerland and bachelor degree in economics
-            from the University of Economics of Azerbaijan.
-          </p>
+
+        <>
+          <div className={styles.imgCard}>
+            <img src={mentor.image} alt="" />
+            <a
+              target="_blank"
+              href={mentor.linkedin}
+              className={styles.linkedinLink}
+            >
+              <img src={linkedin} />
+            </a>
+            <h1>{mentor.name}</h1>
+            <p>{mentor.mission}</p>
+          </div>
+          <div className={styles.mentorTxt}>
+            <h5>our mentor</h5>
+            <p>{mentor.text}</p>
+          </div>
+        </>
+
+        <div onClick={() => handleSlider()} className={styles.navBtns}>
+          &#62;
         </div>
-        <div className={styles.navBtns}>&#62;</div>
       </div>
     </div>
   );
