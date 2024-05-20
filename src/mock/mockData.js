@@ -18,7 +18,7 @@ import sovket from "../assets/team/sovket.png";
 import tural from "../assets/team/tural.png";
 import jarek from "../assets/jarek.jpeg";
 import zaur from "../assets/zaur.jpg";
-import maciek from "../assets/team/maciej.jpeg";
+import maciek from "../assets/team/maciej.png";
 export const features = [
   {
     id: 1,
@@ -213,7 +213,7 @@ export const team = [
     name: "Maciej Kasztelanic",
     img: maciek,
     color: "#B20A47",
-    major: "Pricing enthusiast|Data science|Business analytics ",
+    major: "Business analytics ",
     link: "https://www.linkedin.com/in/maciej-kasztelanic-960556247",
   },
 ];
